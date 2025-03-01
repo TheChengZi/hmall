@@ -1,0 +1,75 @@
+12:23:49:896  INFO 10160 --- [main] c.h.service.impl.UserServiceImplTest     : Starting UserServiceImplTest using Java 22.0.2 on ChengZi with PID 10160 (started by 橙子 in E:\SpringCloud\hmall\hm-service)
+12:23:49:899 DEBUG 10160 --- [main] c.h.service.impl.UserServiceImplTest     : Running with Spring Boot v2.7.12, Spring v5.3.27
+12:23:49:900  INFO 10160 --- [main] c.h.service.impl.UserServiceImplTest     : The following 1 profile is active: "local"
+12:23:50:778  INFO 10160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+12:23:50:781  INFO 10160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+12:23:50:820  INFO 10160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+12:23:53:577  INFO 10160 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+12:23:54:085  INFO 10160 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+12:23:54:088  INFO 10160 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+12:23:54:121  INFO 10160 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+12:23:54:338  INFO 10160 --- [main] c.h.service.impl.UserServiceImplTest     : Started UserServiceImplTest in 4.835 seconds (JVM running for 6.22)
+12:23:54:588  INFO 10160 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+12:23:54:964  INFO 10160 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+12:23:54:971 DEBUG 10160 --- [main] com.hmall.mapper.UserMapper.selectById   : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE id=?
+12:23:54:993 DEBUG 10160 --- [main] com.hmall.mapper.UserMapper.selectById   : ==> Parameters: 1(Integer)
+12:23:55:042 DEBUG 10160 --- [main] com.hmall.mapper.UserMapper.selectById   : <==      Total: 1
+12:23:55:080  INFO 10160 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+12:23:55:086  INFO 10160 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+12:24:36:685  INFO 16184 --- [main] c.h.service.impl.UserServiceImplTest     : Starting UserServiceImplTest using Java 22.0.2 on ChengZi with PID 16184 (started by 橙子 in E:\SpringCloud\hmall\hm-service)
+12:24:36:686 DEBUG 16184 --- [main] c.h.service.impl.UserServiceImplTest     : Running with Spring Boot v2.7.12, Spring v5.3.27
+12:24:36:686  INFO 16184 --- [main] c.h.service.impl.UserServiceImplTest     : The following 1 profile is active: "local"
+12:24:37:573  INFO 16184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+12:24:37:575  INFO 16184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+12:24:37:605  INFO 16184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+12:24:39:980  INFO 16184 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+12:24:40:399  INFO 16184 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+12:24:40:402  INFO 16184 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+12:24:40:434  INFO 16184 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+12:24:40:665  INFO 16184 --- [main] c.h.service.impl.UserServiceImplTest     : Started UserServiceImplTest in 4.365 seconds (JVM running for 5.398)
+12:24:40:883  WARN 16184 --- [main] c.b.m.c.t.support.ReflectLambdaMeta      : Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @331e0679
+12:24:40:898  INFO 16184 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+12:24:41:179  INFO 16184 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+12:24:41:186 DEBUG 16184 --- [main] com.hmall.mapper.UserMapper.selectList   : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+12:24:41:209 DEBUG 16184 --- [main] com.hmall.mapper.UserMapper.selectList   : ==> Parameters: Jack(String)
+12:24:41:235 DEBUG 16184 --- [main] com.hmall.mapper.UserMapper.selectList   : <==      Total: 1
+12:24:41:428  INFO 16184 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+12:24:41:436  INFO 16184 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+12:28:58:473  INFO 19164 --- [main] c.h.service.impl.UserServiceImplTest     : Starting UserServiceImplTest using Java 22.0.2 on ChengZi with PID 19164 (started by 橙子 in E:\SpringCloud\hmall\hm-service)
+12:28:58:474 DEBUG 19164 --- [main] c.h.service.impl.UserServiceImplTest     : Running with Spring Boot v2.7.12, Spring v5.3.27
+12:28:58:475  INFO 19164 --- [main] c.h.service.impl.UserServiceImplTest     : The following 1 profile is active: "local"
+12:28:59:362  INFO 19164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+12:28:59:364  INFO 19164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+12:28:59:388  INFO 19164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+12:29:01:793  INFO 19164 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+12:29:02:285  INFO 19164 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+12:29:02:288  INFO 19164 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+12:29:02:324  INFO 19164 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+12:29:02:521  INFO 19164 --- [main] c.h.service.impl.UserServiceImplTest     : Started UserServiceImplTest in 4.406 seconds (JVM running for 5.388)
+12:29:02:747  WARN 19164 --- [main] c.b.m.c.t.support.ReflectLambdaMeta      : Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @7ac8ccf8
+12:29:02:759  INFO 19164 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+12:29:03:387  INFO 19164 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+12:29:03:393 DEBUG 19164 --- [main] com.hmall.mapper.UserMapper.selectList   : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+12:29:03:418 DEBUG 19164 --- [main] com.hmall.mapper.UserMapper.selectList   : ==> Parameters: Jack(String)
+12:29:03:475 DEBUG 19164 --- [main] com.hmall.mapper.UserMapper.selectList   : <==      Total: 1
+12:29:03:644  INFO 19164 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+12:29:03:811  INFO 19164 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+13:13:12:539  INFO 17788 --- [main] c.h.service.impl.UserServiceImplTest     : Starting UserServiceImplTest using Java 22.0.2 on ChengZi with PID 17788 (started by 橙子 in E:\SpringCloud\hmall\hm-service)
+13:13:12:540 DEBUG 17788 --- [main] c.h.service.impl.UserServiceImplTest     : Running with Spring Boot v2.7.12, Spring v5.3.27
+13:13:12:540  INFO 17788 --- [main] c.h.service.impl.UserServiceImplTest     : The following 1 profile is active: "local"
+13:13:13:278  INFO 17788 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+13:13:13:283  INFO 17788 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+13:13:13:313  INFO 17788 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+13:13:15:935  INFO 17788 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+13:13:16:381  INFO 17788 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+13:13:16:385  INFO 17788 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+13:13:16:433  INFO 17788 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+13:13:16:660  INFO 17788 --- [main] c.h.service.impl.UserServiceImplTest     : Started UserServiceImplTest in 4.468 seconds (JVM running for 5.467)
+13:13:16:900  WARN 17788 --- [main] c.b.m.c.t.support.ReflectLambdaMeta      : Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @647735a9
+13:13:16:912  INFO 17788 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+13:13:17:196  INFO 17788 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+13:13:17:203 DEBUG 17788 --- [main] com.hmall.mapper.UserMapper.selectList   : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+13:13:17:228 DEBUG 17788 --- [main] com.hmall.mapper.UserMapper.selectList   : ==> Parameters: Jack(String)
+13:13:17:254 DEBUG 17788 --- [main] com.hmall.mapper.UserMapper.selectList   : <==      Total: 1
+13:13:17:443  INFO 17788 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+13:13:17:451  INFO 17788 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
